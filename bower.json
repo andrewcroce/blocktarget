@@ -12,6 +12,7 @@
         "jquery"
     ],
     "license": "MIT",
+    "ignore": [],
     "dependencies": {
         "jquery": ">=1.7"
     }
