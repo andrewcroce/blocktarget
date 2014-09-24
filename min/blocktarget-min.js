@@ -1,0 +1,1 @@
+!function($){$(document).ready(function(){$(".block-target").on("click touchend",function(){var t=$(this).find(".block-target-link"),n=t.attr("target");("undefined"==typeof n||n===!1)&&(n="_self");try{return window.open(t.attr("href"),n),!1}catch(e){return window.location.href=t.attr("href"),!1}})})}(jQuery);
