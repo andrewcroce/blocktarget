@@ -4,8 +4,13 @@
 
 		var settings = $.extend({
 			'linkClass' : 'block-target-link',
-			'blockClass' : 'block-target'
+			'blockClass' : 'block-target',
+			'pointer' : true
 		}, options );
+
+		if ( settings.pointer ) {
+			$('.'+settings.blockClass).css('cursor','pointer');
+		}
 
 		$('.'+settings.blockClass).on('click touchend',function(){
 			var small_target = $(this).find('.'+settings.linkClass),

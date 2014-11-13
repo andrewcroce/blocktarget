@@ -14,11 +14,12 @@ Requires jQuery.</p>
 <p>Simply add the class <code>block-target-link</code> to a link.
 Add the class <code>block-target</code> to a parent element you wish to be a click target for that link.</p>
 
-<p>You can change these default classes by passing in an options object:</p>
+<p>You can change these default settings by passing in an options object:</p>
 
-<p><code>
+<p><code>javascript
 $.blocktarget({
-    'linkClass' : 'my-link-class',
-    'blockClass' : 'my-block-class'
+    'linkClass' : 'block-target-link',  // class name for the block
+    'blockClass' : 'block-target',  // class name for the link
+    'pointer' : true  // does the block have a pointer cursor?
 });
-</code></p>
+</code>javascript</p>
