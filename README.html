@@ -1,0 +1,24 @@
+<h1>Blocktarget</h1>
+
+<p>Make block level containers a click target for a child link.</p>
+
+<h1>Installation</h1>
+
+<p>Add the javascript file to you HTML document.
+Requires jQuery.</p>
+
+<h1>Usage</h1>
+
+<p>Run <code>$.blocktarget();</code> when the DOM is ready; You can reinitialize at any point by calling this function again.</p>
+
+<p>Simply add the class <code>block-target-link</code> to a link.
+Add the class <code>block-target</code> to a parent element you wish to be a click target for that link.</p>
+
+<p>You can change these default classes by passing in an options object:</p>
+
+<p><code>
+$.blocktarget({
+    'linkClass' : 'my-link-class',
+    'blockClass' : 'my-block-class'
+});
+</code></p>
